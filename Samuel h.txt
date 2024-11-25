@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenidos a Mi Página Personal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#acerca-de">Acerca de</a></li>
+                    <li><a href="#trabajadores">Trabajadores</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="acerca-de">
+        <div class="container">
+            <h2>Acerca de Mí</h2>
+            <p>
+                Soy [Tu Nombre], un [Tu Profesión] apasionado por [tus intereses o habilidades]. Mi misión es ayudar a [lo que haces] a través de [cómo lo haces]. Mi trabajo se enfoca en [explicar tu área de especialización].
+            </p>
+        </div>
+    </section>
+
+    <section id="trabajadores">
+        <div class="container">
+            <h2>Algunos Trabajadores</h2>
+            <div class="trabajador">
+                <h3>Juan Pérez</h3>
+                <p>Juan es un experto en [especialidad]. Su trabajo consiste en [descripción breve].</p>
+            </div>
+            <div class="trabajador">
+                <h3>Maria López</h3>
+                <p>Maria se especializa en [especialidad]. Es responsable de [descripción breve].</p>
+            </div>
+            <!-- Agregar más trabajadores aquí -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
